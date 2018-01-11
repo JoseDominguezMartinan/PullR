@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package pull;
+ import javax.swing.JOptionPane;
 
 /**
  *
@@ -20,6 +21,8 @@ public class Pull
         // TODO code application logic here
         // la
         System.out.println("David Pull Request");
+        JOptionPane.showInputDialog("Hola, soy David");
+        
     }
     
 }
